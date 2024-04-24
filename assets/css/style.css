@@ -19,6 +19,10 @@ body{
 .ui-menu-color-download{
    background-color: #525252; 
 }
+
+.bg-color-three-reason{
+    background-color: #fff;
+}
 /*--------------------- Headings*/
 header{
     margin: 0;
@@ -92,6 +96,22 @@ header{
     font-weight: 300;
     letter-spacing: 2px;
 }
+.row-table{
+    display: table;
+}
+
+.section-column{
+    display: table-cell;
+    padding: 0 30px 30px 0;
+    float: none;
+}
+
+.section-heading{
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
 /*--------------------- Hover.css*/
 .hvr-sweep-to-bottom:before{
     background-color: rgb(0,0,0, 0.3);
