@@ -2,6 +2,8 @@
 body{
     font-family: "Marcellus", serif;
 }
+/*--------------------- Body Section*/
+
 /*--------------------- Colours*/
 .bg-color-name-title{
     background-color: #676767;
@@ -30,6 +32,9 @@ body{
 
 .bg-color-three-reason{
     background-color: #fff;
+}
+.bg-cpp{
+    background-color: rgb(30, 50, 180, 0.5);
 }
 /*--------------------- Headings*/
 header{
@@ -247,5 +252,5 @@ footer{
 }
 
 .progress-section{
-    margin: 20px;
+    margin: 10px 5px;
 }
