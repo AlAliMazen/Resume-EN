@@ -39,6 +39,11 @@ body{
 .bg-cpp{
     background-color: rgb(30, 50, 180, 0.5);
 }
+
+.bg-color-contact{
+    background-color: #fff;
+}
+
 /*--------------------- Headings*/
 header{
     margin: 0;
@@ -298,4 +303,34 @@ footer{
 
 .work-history{
     margin-bottom: 25px;
+}
+
+/*--------------------- Contact Form*/
+.contact-heading{
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color:#e84610  ;
+}
+
+/*--------------------- Media Queries*/
+@media (min-width:992px){
+    .center-form{
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
