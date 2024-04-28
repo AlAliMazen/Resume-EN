@@ -138,7 +138,7 @@ header{
     background-color: rgb(0,0,0, 0.3);
 }
 
-/*--------------------- Spacila padding/margines/text*/
+/*--------------------- special padding/marggine/text*/
 h1,h2,h3,h4{
     margin: 0;
 }
@@ -318,11 +318,23 @@ footer{
     max-width: 70%;
 }
 
+input[type="text"],
+input[type="email"]{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
 button[type="submit"]{
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
     background-color:#e84610  ;
+}
+
+/*--------------------- Download*/
+.download-heading{
+    margin-top: 25px;
+    margin-bottom: 15px;
+
 }
 
 /*--------------------- Media Queries*/
