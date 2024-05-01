@@ -306,6 +306,9 @@ footer{
 }
 
 /*--------------------- Contact Form*/
+.contact-section{
+    min-height: 50vh;
+}
 .contact-heading{
     font-weight: 300;
     margin-top: 25px;
@@ -331,10 +334,38 @@ button[type="submit"]{
 }
 
 /*--------------------- Download*/
+.download-section{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+}
 .download-heading{
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 15px;
+    background-color: #525252;
+    color: #fafafa;
+    font-size: 26px;
+}
 
+.cv-section{
+    border: 1px solid #525252;
+    border-radius: 10px;
+    margin: 12px;
+}
+.cv-section ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #525252;
+}
+.cv-section ul li a:hover{
+    color: #e84010;
+}
+
+.cv-section ul li a i{
+    margin: 10px 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #525252;
 }
 
 /*--------------------- Media Queries*/
