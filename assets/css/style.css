@@ -12,6 +12,52 @@ body{
 .bg-color-personal-info{
     background-color: #f4f4f4;
 }
+.front-end{
+    color: #e67e22;
+}
+.back-end{
+    color: #e67e22;
+}
+.cpp-icon{
+    color: #1E32B4;
+}
+
+.bg-azure{
+    background-color: #007FFF;
+}
+.azure-icon{
+    color: #007FFF;
+}
+
+.bg-share-point{
+    background-color: #34767C;
+}
+.sharepoint-icon{
+    color: #34767C;
+}
+
+.bg-power-bi{
+    background-color: #D59132;
+}
+
+.power-bi-icon{
+    color: #D59132;
+}
+
+.bg-power-apps{
+    background-color: #7A367F;
+}
+
+.power-apps-icon{
+    color: #7A367F;
+}
+
+.bg-qt-qml{
+    background-color: #67CD53;
+}
+.qt-qml-icon{
+    color: #67CD53;
+}
 
 .personal-data-color{
     color: #e67e22;
@@ -203,8 +249,7 @@ footer{
 
 /*--------------------- Reasons*/
 .three-reasons-icon{
-    font-size: 26px;
-    color: #e67e22;
+    font-size: 26px; 
 }
 
 .three-reasons-heading{
